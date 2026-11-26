@@ -1,11 +1,11 @@
 let score = true;
 
-console.log(typeof score); 
-console.log(typeof (score));
+// console.log(typeof score); 
+// console.log(typeof (score));
 
 let valueInNumber = Number(score);
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 
 // "33" => 33
@@ -15,7 +15,7 @@ console.log(valueInNumber);
  let isLoggedIn = "aditya";
 
  let booleanIsLoggedIn = Boolean(isLoggedIn);
-    console.log(booleanIsLoggedIn);
+    // ;console.log(booleanIsLoggedIn);
 
     // 1 => true; 0 => false
     // "" => false; "aditya" => true
@@ -23,5 +23,37 @@ console.log(valueInNumber);
  let someNumber = 33;
 
  let stringNumber = String(someNumber);
-    console.log(typeof stringNumber);
-    console.log(stringNumber);
+   //  console.log(typeof stringNumber);
+   //  console.log(stringNumber);
+
+    //**Operations */
+
+    let value = 3;
+    let negValue = -value;
+   //  console.log(negValue)
+
+   // console.log(2+2)
+   // console.log(2-2)
+   // console.log(2*2)
+   // console.log(2**2)
+   // console.log(2/2)
+   // console.log(2%2)
+
+let str1 = "Hello";
+let str2 = "World";
+
+let fullString = str1 + str2
+console.log(fullString);
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2);
+// console.log(1+2+"3");
+
+let num1, num2, num3;
+
+num1=num2=num3=2+2;
+
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter);
